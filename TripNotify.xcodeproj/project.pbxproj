@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C756FFAF1D3B478300ACDF25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFAE1D3B478300ACDF25 /* main.m */; };
+		C756FFB21D3B478300ACDF25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFB11D3B478300ACDF25 /* AppDelegate.m */; };
+		C756FFB51D3B478300ACDF25 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFB41D3B478300ACDF25 /* FirstViewController.m */; };
+		C756FFB81D3B478300ACDF25 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFB71D3B478300ACDF25 /* SecondViewController.m */; };
+		C756FFBB1D3B478300ACDF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C756FFB91D3B478300ACDF25 /* Main.storyboard */; };
+		C756FFBD1D3B478300ACDF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C756FFBC1D3B478300ACDF25 /* Assets.xcassets */; };
+		C756FFC01D3B478300ACDF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C756FFBE1D3B478300ACDF25 /* LaunchScreen.storyboard */; };
+		C756FFCB1D3B478300ACDF25 /* TripNotifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFCA1D3B478300ACDF25 /* TripNotifyTests.m */; };
+		C756FFD61D3B478300ACDF25 /* TripNotifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C756FFD51D3B478300ACDF25 /* TripNotifyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C756FFC71D3B478300ACDF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C756FFA21D3B478300ACDF25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C756FFA91D3B478300ACDF25;
+			remoteInfo = TripNotify;
+		};
+		C756FFD21D3B478300ACDF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C756FFA21D3B478300ACDF25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C756FFA91D3B478300ACDF25;
+			remoteInfo = TripNotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C756FFAA1D3B478300ACDF25 /* TripNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C756FFAE1D3B478300ACDF25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C756FFB01D3B478300ACDF25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C756FFB11D3B478300ACDF25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C756FFB31D3B478300ACDF25 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C756FFB41D3B478300ACDF25 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C756FFB61D3B478300ACDF25 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C756FFB71D3B478300ACDF25 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C756FFBA1D3B478300ACDF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C756FFBC1D3B478300ACDF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C756FFBF1D3B478300ACDF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C756FFC11D3B478300ACDF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C756FFC61D3B478300ACDF25 /* TripNotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripNotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C756FFCA1D3B478300ACDF25 /* TripNotifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripNotifyTests.m; sourceTree = "<group>"; };
+		C756FFCC1D3B478300ACDF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C756FFD11D3B478300ACDF25 /* TripNotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripNotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C756FFD51D3B478300ACDF25 /* TripNotifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripNotifyUITests.m; sourceTree = "<group>"; };
+		C756FFD71D3B478300ACDF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C756FFA71D3B478300ACDF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFC31D3B478300ACDF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFCE1D3B478300ACDF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C756FFA11D3B478300ACDF25 = {
+			isa = PBXGroup;
+			children = (
+				C756FFAC1D3B478300ACDF25 /* TripNotify */,
+				C756FFC91D3B478300ACDF25 /* TripNotifyTests */,
+				C756FFD41D3B478300ACDF25 /* TripNotifyUITests */,
+				C756FFAB1D3B478300ACDF25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C756FFAB1D3B478300ACDF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C756FFAA1D3B478300ACDF25 /* TripNotify.app */,
+				C756FFC61D3B478300ACDF25 /* TripNotifyTests.xctest */,
+				C756FFD11D3B478300ACDF25 /* TripNotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C756FFAC1D3B478300ACDF25 /* TripNotify */ = {
+			isa = PBXGroup;
+			children = (
+				C756FFB01D3B478300ACDF25 /* AppDelegate.h */,
+				C756FFB11D3B478300ACDF25 /* AppDelegate.m */,
+				C756FFB31D3B478300ACDF25 /* FirstViewController.h */,
+				C756FFB41D3B478300ACDF25 /* FirstViewController.m */,
+				C756FFB61D3B478300ACDF25 /* SecondViewController.h */,
+				C756FFB71D3B478300ACDF25 /* SecondViewController.m */,
+				C756FFB91D3B478300ACDF25 /* Main.storyboard */,
+				C756FFBC1D3B478300ACDF25 /* Assets.xcassets */,
+				C756FFBE1D3B478300ACDF25 /* LaunchScreen.storyboard */,
+				C756FFC11D3B478300ACDF25 /* Info.plist */,
+				C756FFAD1D3B478300ACDF25 /* Supporting Files */,
+			);
+			path = TripNotify;
+			sourceTree = "<group>";
+		};
+		C756FFAD1D3B478300ACDF25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C756FFAE1D3B478300ACDF25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C756FFC91D3B478300ACDF25 /* TripNotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C756FFCA1D3B478300ACDF25 /* TripNotifyTests.m */,
+				C756FFCC1D3B478300ACDF25 /* Info.plist */,
+			);
+			path = TripNotifyTests;
+			sourceTree = "<group>";
+		};
+		C756FFD41D3B478300ACDF25 /* TripNotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C756FFD51D3B478300ACDF25 /* TripNotifyUITests.m */,
+				C756FFD71D3B478300ACDF25 /* Info.plist */,
+			);
+			path = TripNotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C756FFA91D3B478300ACDF25 /* TripNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C756FFDA1D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotify" */;
+			buildPhases = (
+				C756FFA61D3B478300ACDF25 /* Sources */,
+				C756FFA71D3B478300ACDF25 /* Frameworks */,
+				C756FFA81D3B478300ACDF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripNotify;
+			productName = TripNotify;
+			productReference = C756FFAA1D3B478300ACDF25 /* TripNotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C756FFC51D3B478300ACDF25 /* TripNotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C756FFDD1D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotifyTests" */;
+			buildPhases = (
+				C756FFC21D3B478300ACDF25 /* Sources */,
+				C756FFC31D3B478300ACDF25 /* Frameworks */,
+				C756FFC41D3B478300ACDF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C756FFC81D3B478300ACDF25 /* PBXTargetDependency */,
+			);
+			name = TripNotifyTests;
+			productName = TripNotifyTests;
+			productReference = C756FFC61D3B478300ACDF25 /* TripNotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C756FFD01D3B478300ACDF25 /* TripNotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C756FFE01D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotifyUITests" */;
+			buildPhases = (
+				C756FFCD1D3B478300ACDF25 /* Sources */,
+				C756FFCE1D3B478300ACDF25 /* Frameworks */,
+				C756FFCF1D3B478300ACDF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C756FFD31D3B478300ACDF25 /* PBXTargetDependency */,
+			);
+			name = TripNotifyUITests;
+			productName = TripNotifyUITests;
+			productReference = C756FFD11D3B478300ACDF25 /* TripNotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C756FFA21D3B478300ACDF25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chengzhe Wu";
+				TargetAttributes = {
+					C756FFA91D3B478300ACDF25 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C756FFC51D3B478300ACDF25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C756FFA91D3B478300ACDF25;
+					};
+					C756FFD01D3B478300ACDF25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C756FFA91D3B478300ACDF25;
+					};
+				};
+			};
+			buildConfigurationList = C756FFA51D3B478300ACDF25 /* Build configuration list for PBXProject "TripNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C756FFA11D3B478300ACDF25;
+			productRefGroup = C756FFAB1D3B478300ACDF25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C756FFA91D3B478300ACDF25 /* TripNotify */,
+				C756FFC51D3B478300ACDF25 /* TripNotifyTests */,
+				C756FFD01D3B478300ACDF25 /* TripNotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C756FFA81D3B478300ACDF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756FFC01D3B478300ACDF25 /* LaunchScreen.storyboard in Resources */,
+				C756FFBD1D3B478300ACDF25 /* Assets.xcassets in Resources */,
+				C756FFBB1D3B478300ACDF25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFC41D3B478300ACDF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFCF1D3B478300ACDF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C756FFA61D3B478300ACDF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756FFB81D3B478300ACDF25 /* SecondViewController.m in Sources */,
+				C756FFB21D3B478300ACDF25 /* AppDelegate.m in Sources */,
+				C756FFB51D3B478300ACDF25 /* FirstViewController.m in Sources */,
+				C756FFAF1D3B478300ACDF25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFC21D3B478300ACDF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756FFCB1D3B478300ACDF25 /* TripNotifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C756FFCD1D3B478300ACDF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756FFD61D3B478300ACDF25 /* TripNotifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C756FFC81D3B478300ACDF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C756FFA91D3B478300ACDF25 /* TripNotify */;
+			targetProxy = C756FFC71D3B478300ACDF25 /* PBXContainerItemProxy */;
+		};
+		C756FFD31D3B478300ACDF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C756FFA91D3B478300ACDF25 /* TripNotify */;
+			targetProxy = C756FFD21D3B478300ACDF25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C756FFB91D3B478300ACDF25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C756FFBA1D3B478300ACDF25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C756FFBE1D3B478300ACDF25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C756FFBF1D3B478300ACDF25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C756FFD81D3B478300ACDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C756FFD91D3B478300ACDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C756FFDB1D3B478300ACDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C756FFDC1D3B478300ACDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C756FFDE1D3B478300ACDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripNotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripNotify.app/TripNotify";
+			};
+			name = Debug;
+		};
+		C756FFDF1D3B478300ACDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripNotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripNotify.app/TripNotify";
+			};
+			name = Release;
+		};
+		C756FFE11D3B478300ACDF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripNotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripNotify;
+			};
+			name = Debug;
+		};
+		C756FFE21D3B478300ACDF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripNotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhewu.TripNotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripNotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C756FFA51D3B478300ACDF25 /* Build configuration list for PBXProject "TripNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C756FFD81D3B478300ACDF25 /* Debug */,
+				C756FFD91D3B478300ACDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C756FFDA1D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C756FFDB1D3B478300ACDF25 /* Debug */,
+				C756FFDC1D3B478300ACDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C756FFDD1D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C756FFDE1D3B478300ACDF25 /* Debug */,
+				C756FFDF1D3B478300ACDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C756FFE01D3B478300ACDF25 /* Build configuration list for PBXNativeTarget "TripNotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C756FFE11D3B478300ACDF25 /* Debug */,
+				C756FFE21D3B478300ACDF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C756FFA21D3B478300ACDF25 /* Project object */;
+}
